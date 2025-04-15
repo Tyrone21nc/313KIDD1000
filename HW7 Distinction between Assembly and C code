@@ -1,0 +1,23 @@
+#Distinction in Assembly code
+
+The first main difference was how much more code there is in this assembly file. One thing that surprised me about the assembly code is how there isn’t any specifications about the placement of 
+the variables and the spaces between every variable. I thought maybe the code would have a section about the placement of the variables in relation to the first line and first character space. 
+Another major difference I noticed were the different descriptive words to describe the position of the variuables, like .global meaning they are global variabales, or .type for the string 
+variable array, or perhaps the size for the array but no size for regular strings, only for the char array. I also noticed the specifications in the main function code and the operations 
+performed to certain variables. 
+
+
+One thing I noticed among all the files is that assembly code doesn’t include any tabs or special formatting for characters in between curly braces. This is what I am referring to:
+if(something true)
+{
+	cout << “some cool stuff” << endl;
+}
+
+Some other differences I noticed between the code is the code that says movl with some other operators on the right. This part of the assembly is very different from C code, but it 
+just means we’re moving a variable to a specific destination. This is usually seen when the variable is reused mainly after initialization. I am also noticing that the code for the
+.s for .ccp file is also different from the .s from a .c file. The .c assembly seem to make more sense than the .cpp assembly, maybe that’s because I’ve seen more .c code. One thing
+I also noticed in all the c codes; it says it right before it is about to start with code from the main function. One thing they all seem to have in common is the fact that if you 
+have a global variable, it’ll will label global right before the code to let us know we have a global variable below, Including the .cpp’s assembly code. One thing I also noticed 
+the assembler did was created spaces to separate either variables or just different segments of unrelated code.
+
+
