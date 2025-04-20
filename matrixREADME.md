@@ -1,4 +1,4 @@
-To compile my code just do the regular compilation:
+##To compile my code just do the regular compilation:
 
 #For C++:
 g++ -Wall matrix.cpp -o matrix1
