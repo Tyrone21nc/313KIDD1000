@@ -1,13 +1,14 @@
-##This is HW8, the matrix library is done in C++ and in C
+# This is HW8, the matrix library is done in C++ and in C
+
 
 ##To compile my code just do the regular compilation commands for c++ and c files:
-
 #For C++:
 g++ -Wall matrix.cpp -o matrix1
 #for C
 gcc -Wall matrix.c -o matrix2
 
-# For trying out different types of matrices, just alter it in the main.
+
+##For trying out different types of matrices, just alter it in the main.
 #For C++:
 1. Change the value to your prefered matrix size (line 3(25-26) ):
 const int row = 3;
